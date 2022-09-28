@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Ubuntu:ital,wght@1,700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Open+Sans:wght@800&family=Ubuntu:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Ubuntu:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Open+Sans:wght@800&family=Ubuntu:ital,wght@1,700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="content-wrapper">
@@ -114,56 +114,57 @@
            
           
            <div class="video-wrap" style="margin-bottom:20px">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/7gqHndVzT-4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe id="myIframe" width="560" height="315" src="https://www.youtube.com/embed/7gqHndVzT-4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
            </div>
       <!--  video-wrap -->
            
            <ul class="video-list">
       
              <li>
-               <a class="video-list__item active" data-yt-id="7gqHndVzT-4" href="https://www.youtube.com/watch?v=7gqHndVzT-4">
+               <a class="video-list__item "  data-yt-id="7gqHndVzT-4"  onclick="myFunction('https://www.youtube.com/embed/7gqHndVzT-4')">
                  <img src="https://img.youtube.com/vi/7gqHndVzT-4/mqdefault.jpg">
                </a>
              </li>
-           <li>
-              <a class="video-list__item" data-yt-id="2aJVSx1hvPk" target=”_blank” href="https://www.youtube.com/watch?v=2aJVSx1hvPk">
+            <li>
+              <a class="video-list__item" data-yt-id="2aJVSx1hvPk" target=”_blank”  onclick="myFunction('https://www.youtube.com/embed/2aJVSx1hvPk')">
                 <img src="https://img.youtube.com/vi/2aJVSx1hvPk/mqdefault.jpg">
               </a>
             </li>
             <li>
-             <a class="video-list__item" data-yt-id="WSk41m54hP0" target=”_blank” href="https://www.youtube.com/watch?v=WSk41m54hP0">
+             <a class="video-list__item" data-yt-id="WSk41m54hP0" target=”_blank” onclick="myFunction('https://www.youtube.com/embed/WSk41m54hP0')">
                <img src="https://img.youtube.com/vi/WSk41m54hP0/mqdefault.jpg">
              </a>
            </li>
             <li>
-             <a class="video-list__item" data-yt-id="GrzCdfFlF6o" target=”_blank” href="https://www.youtube.com/watch?v=GrzCdfFlF6o">
+             <a class="video-list__item" data-yt-id="GrzCdfFlF6o" target=”_blank” onclick="myFunction('https://www.youtube.com/embed/GrzCdfFlF6o')">
              <img src="https://img.youtube.com/vi/GrzCdfFlF6o/mqdefault.jpg">
             </a>
            </li>
            <li>
-              <a class="video-list__item" data-yt-id="BgNNDOYSOHU" target=”_blank” href="https://www.youtube.com/watch?v=BgNNDOYSOHU">
+              <a class="video-list__item" data-yt-id="BgNNDOYSOHU" target=”_blank” onclick="myFunction('https://www.youtube.com/embed/BgNNDOYSOHU')">
               <img src="https://img.youtube.com/vi/BgNNDOYSOHU/mqdefault.jpg">
              </a>
             </li>
             <li>
-              <a class="video-list__item" data-yt-id="O--QrY1Rw28" target=”_blank” href="https://www.youtube.com/watch?v=O--QrY1Rw28">
+              <a class="video-list__item" data-yt-id="O--QrY1Rw28" target=”_blank” onclick="myFunction('https://www.youtube.com/embed/O--QrY1Rw28')">
               <img src="https://img.youtube.com/vi/O--QrY1Rw28/mqdefault.jpg">
              </a>
             </li>
             
             <li>
-              <a class="video-list__item" data-yt-id="NzA6wjFk8Hc" target=”_blank” href="https://www.youtube.com/watch?v=NzA6wjFk8Hc">
+              <a class="video-list__item" data-yt-id="NzA6wjFk8Hc" target=”_blank” onclick="myFunction('https://www.youtube.com/embed/NzA6wjFk8Hc')">
               <img src="https://img.youtube.com/vi/NzA6wjFk8Hc/mqdefault.jpg">
              </a>
             </li>
           
-       <li>
-              <a class="video-list__item" data-yt-id="gHaGa7WPGQM" target=”_blank” href="https://www.youtube.com/watch?v=gHaGa7WPGQM">
+            <li>
+              <a class="video-list__item" data-yt-id="gHaGa7WPGQM" target=”_blank” onclick="myFunction('https://www.youtube.com/embed/gHaGa7WPGQM')">
                 <img src="https://img.youtube.com/vi/gHaGa7WPGQM/mqdefault.jpg">
               </a>
             </li>
           
            </ul>
+           
           
          </section>
          <!-- /.video -->
@@ -201,4 +202,5 @@
       </footer> 
          </div>
 </body>
+<script src="script.js"></script>
 </html>
