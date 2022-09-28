@@ -306,6 +306,13 @@
       margin-bottom: 0.625rem;
       text-align: center;
   }
+
+  @media (min-width: 430px) {
+    .album h1 {
+        font-size: var(--step-3);
+    }
+}
+
   .album h1, .subscribe h4, .tour-dates h3 {
       text-transform: uppercase;
   }
