@@ -72,6 +72,7 @@
       background-size: 100% auto;
       background-position: center top;
       background-repeat: repeat-y;
+      background-attachment:scroll;
   }
   
   ::marker {
@@ -139,6 +140,7 @@
   
   .cover>* {
       position: relative;
+      
   }
   
   @media (orientation: landscape) {
@@ -160,6 +162,7 @@
       -webkit-mask-image: linear-gradient(black 95%,transparent 100%);
       mask-image: -webkit-gradient(linear,left top,left bottom,color-stop(95%,black),to(transparent));
       mask-image: linear-gradient(black 95%,transparent 100%);
+      background-attachment:scroll;
   }
   
   
